@@ -1,0 +1,508 @@
+[
+  {
+    "name": "starting_diagram_tlm",
+    "category": "diagramtop",
+    "default_arity": 0,
+    "uuid": "starting_diagram_tlmUUID",
+    "links": [
+      [
+        33582783,
+        1,
+        12209002,
+        2
+      ]
+    ],
+    "submodels": [
+      {
+        "submodel_id": 12209002,
+        "submodel_type": "model",
+        "position": [
+          123,
+          96.33333333333331
+        ],
+        "uuid": "MMRangeUUID",
+        "width": 50
+      },
+      {
+        "submodel_id": 8575996,
+        "submodel_type": "model",
+        "position": [
+          29.101333333333276,
+          171.75899999999996
+        ],
+        "uuid": "10620",
+        "width": 50
+      },
+      {
+        "submodel_id": 33582783,
+        "submodel_type": "model",
+        "position": [
+          6.1013333333332795,
+          86.42566666666667
+        ],
+        "uuid": "MMIfUUID",
+        "width": 50
+      }
+    ],
+    "default_coarity": 0,
+    "variable_coarity": false,
+    "doctype": "model-4",
+    "diagram": true,
+    "composite": true,
+    "MM_builtin": false,
+    "variable_arity": false,
+    "data": false
+  },
+  {
+    "name": "some_diagram_tlm",
+    "category": "diagramtop",
+    "default_arity": 0,
+    "uuid": "some_diagram_tlmUUID",
+    "links": [
+      [
+        787737,
+        1,
+        9025500,
+        1
+      ],
+      [
+        9025500,
+        1,
+        10825939,
+        1
+      ],
+      [
+        787737,
+        1,
+        23398186,
+        1
+      ],
+      [
+        20452432,
+        1,
+        23398186,
+        2
+      ],
+      [
+        46862260,
+        1,
+        23398186,
+        3
+      ],
+      [
+        23398186,
+        1,
+        10825939,
+        2
+      ],
+      [
+        10825939,
+        1,
+        46364880,
+        1
+      ]
+    ],
+    "submodels": [
+      {
+        "submodel_id": 787737,
+        "submodel_type": "singleton",
+        "position": [
+          23,
+          103
+        ],
+        "width": 50,
+        "singleton_input": {
+          "type": "raw",
+          "value": "x"
+        }
+      },
+      {
+        "submodel_id": 9025500,
+        "submodel_type": "model",
+        "position": [
+          90.33333333333334,
+          95.80000000000004
+        ],
+        "uuid": "MMSinUUID",
+        "width": 50
+      },
+      {
+        "submodel_id": 10825939,
+        "submodel_type": "model",
+        "position": [
+          170,
+          116.99999999999999
+        ],
+        "uuid": "MMPlotUUID",
+        "width": 50
+      },
+      {
+        "submodel_id": 46862260,
+        "submodel_type": "singleton",
+        "position": [
+          36,
+          180.13333333333335
+        ],
+        "width": 50,
+        "singleton_input": {
+          "type": "raw",
+          "value": "9"
+        }
+      },
+      {
+        "submodel_id": 23398186,
+        "submodel_type": "model",
+        "position": [
+          103,
+          138.80000000000004
+        ],
+        "uuid": "MMListUUID",
+        "width": 50,
+        "override_arity": 3
+      },
+      {
+        "submodel_id": 20452432,
+        "submodel_type": "singleton",
+        "position": [
+          31.333333333333336,
+          156.8
+        ],
+        "width": 50,
+        "singleton_input": {
+          "type": "raw",
+          "value": "0"
+        }
+      },
+      {
+        "submodel_id": 46364880,
+        "submodel_type": "result",
+        "position": [
+          240.00000000000006,
+          109.46666666666668
+        ],
+        "width": 50,
+        "height": 50,
+        "density": 0.5
+      }
+    ],
+    "default_coarity": 0,
+    "variable_coarity": false,
+    "doctype": "model-4",
+    "diagram": true,
+    "composite": true,
+    "MM_builtin": false,
+    "variable_arity": false,
+    "data": false
+  },
+  {
+    "name": "pi digits test",
+    "category": "diagramtop",
+    "default_arity": 0,
+    "uuid": "pi_digits_test_tlmUUID",
+    "links": [
+      [
+        14389401,
+        1,
+        43651303,
+        1
+      ],
+      [
+        68131602,
+        1,
+        43651303,
+        2
+      ],
+      [
+        43651303,
+        1,
+        428418604,
+        1
+      ],
+      [
+        428418604,
+        1,
+        87458405,
+        1
+      ],
+      [
+        87458405,
+        1,
+        582369506,
+        1
+      ],
+      [
+        29444746,
+        1,
+        11284920,
+        1
+      ],
+      [
+        6763692,
+        1,
+        11284920,
+        2
+      ],
+      [
+        11284920,
+        1,
+        98172610,
+        1
+      ],
+      [
+        98172610,
+        1,
+        681438815,
+        1
+      ],
+      [
+        43651303,
+        1,
+        712568813,
+        1
+      ],
+      [
+        5841511,
+        1,
+        87458405,
+        2
+      ]
+    ],
+    "submodels": [
+      {
+        "submodel_id": 68131602,
+        "submodel_type": "singleton",
+        "position": [
+          36.666666666666664,
+          120.99999999999999
+        ],
+        "width": 50,
+        "singleton_input": {
+          "type": "raw",
+          "value": "30"
+        }
+      },
+      {
+        "submodel_id": 14389401,
+        "submodel_type": "singleton",
+        "position": [
+          36,
+          101.66666666666666
+        ],
+        "width": 52.66666666666666,
+        "singleton_input": {
+          "type": "raw",
+          "value": "Pi"
+        }
+      },
+      {
+        "submodel_id": 43651303,
+        "submodel_type": "model",
+        "position": [
+          120.33333333333333,
+          100.33333333333333
+        ],
+        "uuid": "MMNUUID",
+        "width": 50
+      },
+      {
+        "submodel_id": 29444746,
+        "submodel_type": "singleton",
+        "position": [
+          62.99999999999998,
+          242.0666666666667
+        ],
+        "width": 50.70000000000001,
+        "singleton_input": {
+          "type": "raw",
+          "value": "0"
+        }
+      },
+      {
+        "submodel_id": 6763692,
+        "submodel_type": "singleton",
+        "position": [
+          63.43333333333331,
+          266.7666666666667
+        ],
+        "width": 50,
+        "singleton_input": {
+          "type": "raw",
+          "value": "9"
+        }
+      },
+      {
+        "submodel_id": 11284920,
+        "submodel_type": "model",
+        "position": [
+          140.56666666666666,
+          242.93333333333337
+        ],
+        "uuid": "MMRangeUUID",
+        "width": 50
+      },
+      {
+        "submodel_id": 98172610,
+        "submodel_type": "model",
+        "position": [
+          218.19999999999996,
+          240.16666666666669
+        ],
+        "uuid": "10620",
+        "width": 96.96834890965724,
+        "sugared_map": [
+          1
+        ]
+      },
+      {
+        "submodel_id": 428418604,
+        "submodel_type": "model",
+        "position": [
+          196.46666666666667,
+          105.99999999999999
+        ],
+        "uuid": "MMRealDigitsUUID",
+        "width": 50
+      },
+      {
+        "submodel_id": 87458405,
+        "submodel_type": "model",
+        "position": [
+          276.2,
+          105.13333333333333
+        ],
+        "uuid": "MMPartUUID",
+        "width": 50
+      },
+      {
+        "submodel_id": 582369506,
+        "submodel_type": "set_variable",
+        "position": [
+          360.2666666666667,
+          118.99999999999999
+        ],
+        "width": 50,
+        "variable_name": "digits"
+      },
+      {
+        "submodel_id": 712568813,
+        "submodel_type": "result",
+        "position": [
+          205.2904536489151,
+          62.36672583826427
+        ],
+        "width": 45.06666666666669,
+        "height": 28.599999999999998,
+        "density": 0.5
+      },
+      {
+        "submodel_id": 5841511,
+        "submodel_type": "singleton",
+        "position": [
+          200.36666666666667,
+          143.26666666666665
+        ],
+        "width": 50.85712031558185,
+        "singleton_input": {
+          "type": "raw",
+          "value": "1"
+        }
+      },
+      {
+        "submodel_id": 681438815,
+        "submodel_type": "result",
+        "position": [
+          393.3466666666667,
+          241.08999999999995
+        ],
+        "width": 50,
+        "height": 50,
+        "density": 0.5
+      }
+    ],
+    "default_coarity": 0,
+    "variable_coarity": false,
+    "doctype": "model-4",
+    "diagram": true,
+    "composite": true,
+    "MM_builtin": false,
+    "variable_arity": false,
+    "data": false
+  },
+  {
+    "doctype": "model-4",
+    "name": "CountInList",
+    "uuid": "10620",
+    "default_arity": 1,
+    "default_coarity": 1,
+    "category": "userdef",
+    "diagram": false,
+    "data": false,
+    "composite": true,
+    "variable_arity": false,
+    "variable_coarity": false,
+    "MM_builtin": false,
+    "size": [
+      149.0666666666667,
+      92.73333333333335
+    ],
+    "submodels": [
+      {
+        "submodel_id": 35476250,
+        "submodel_type": "result",
+        "position": [
+          113.35681420493287,
+          58.80451101825916
+        ],
+        "width": 32.44339974184703,
+        "height": 26.379212874212065,
+        "density": 0.5
+      },
+      {
+        "submodel_id": 432590,
+        "submodel_type": "model",
+        "position": [
+          48.62771616771724,
+          25.845674747053984
+        ],
+        "uuid": "MMCountUUID",
+        "width": 48.01221568044416
+      },
+      {
+        "submodel_id": 9154200,
+        "submodel_type": "ref_variable",
+        "position": [
+          7.536962837286012,
+          13.717988881275414
+        ],
+        "width": 23.953328654574904,
+        "variable_name": "digits"
+      }
+    ],
+    "links": [
+      [
+        0,
+        1,
+        432590,
+        2
+      ],
+      [
+        9154200,
+        1,
+        432590,
+        1
+      ],
+      [
+        432590,
+        1,
+        0,
+        1
+      ],
+      [
+        432590,
+        1,
+        35476250,
+        1
+      ]
+    ]
+  }
+]

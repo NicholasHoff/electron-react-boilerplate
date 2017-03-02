@@ -1,0 +1,23 @@
+[
+  {
+    "name": "starting_diagram",
+    "doctype": "diagram-3",
+    "tlm_uuid": "starting_diagram_tlmUUID",
+    "bubbles": [],
+    "uuid": "starting_diagramUUID"
+  },
+  {
+    "name": "some_diagram",
+    "doctype": "diagram-3",
+    "tlm_uuid": "some_diagram_tlmUUID",
+    "bubbles": [],
+    "uuid": "some_diagramUUID"
+  },
+  {
+    "name": "pi digits test",
+    "doctype": "diagram-3",
+    "tlm_uuid": "pi_digits_test_tlmUUID",
+    "bubbles": [],
+    "uuid": "pi_digits_testUUID"
+  }
+]
