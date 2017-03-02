@@ -3,6 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Hello Electron React!</title>
+
+    <!-- This should not be required.  I should pack the bootstrap in with webpack, but the bootstrap-theme wasn't being picked up, don't know why. -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
+
+    <script>const Alonzo = {}</script>
+    
     <script>
       (function() {
         if (!process.env.HOT) {
