@@ -130,6 +130,15 @@ export default class MenuBuilder {
         }
       }]
     }, {
+      label: '&Debug',
+      submenu: [
+        {label: "home = " + app.getPath("home")},
+        {label: "appData = " + app.getPath("appData")},
+        {label: "userData = " + app.getPath("userData")},
+        {label: "temp = " + app.getPath("temp")},
+        {label: "exe = " + app.getPath("exe")}
+      ]
+    }, {
       label: '&View',
       submenu: (process.env.NODE_ENV === 'development') ? [{
         label: '&Reload',
