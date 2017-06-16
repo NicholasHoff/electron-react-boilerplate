@@ -2,6 +2,8 @@
 // @flow
 import { app, BrowserWindow } from 'electron';
 import MenuBuilder from './menu';
+const fs  = require('fs');
+const path = require('path');
 
 let mainWindow = null;
 
@@ -50,6 +52,8 @@ app.on('ready', async () => {
     width: 1024,
     height: 728
   });
+
+  fs.appendFileSync(path.join(app.getPath("userData"), "debug.txt"), "some content to write\n");  
 
   mainWindow.loadURL(`file://${__dirname}/app.html`);
 
