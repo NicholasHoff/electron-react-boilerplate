@@ -2,6 +2,7 @@
 // @flow
 import { app, BrowserWindow } from 'electron';
 import MenuBuilder from './menu';
+import contentForDistribution from './content_for_distribution.json';
 const fs  = require('fs');
 const path = require('path');
 
@@ -53,7 +54,8 @@ app.on('ready', async () => {
     height: 728
   });
 
-  fs.appendFileSync(path.join(app.getPath("userData"), "debug.txt"), "some content to write\n");  
+  fs.appendFileSync(path.join(app.getPath("userData"), "debug.txt"), "some content to write\n");
+  fs.writeFileSync(path.join(app.getPath("userData"), "content_for_distribution.json"), JSON.stringify(contentForDistribution));
 
   mainWindow.loadURL(`file://${__dirname}/app.html`);
 
